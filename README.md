@@ -47,7 +47,7 @@ Using the HoughLinesP(),detect line co-ordinates for every points in the images.
 * **Name:** Rishikesh S
 * **Register No:** 212225240118
 
-### Input image and grayscale image
+## Input image and grayscale image
 ```
 import cv2
 import numpy as np
@@ -58,6 +58,11 @@ plt.title('Input Image')
 plt.axis('off')
 ```
 
+<br>
+
+<img width="1701" height="1209" alt="image" src="https://github.com/user-attachments/assets/59786d6d-799f-46c4-ac7d-072926379356" />
+
+<br>
 
 ```
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -65,6 +70,13 @@ plt.imshow(gray_image, cmap='gray')
 plt.title('Grayscale Image')
 plt.axis('off')
 ```
+
+<br>
+
+<img width="1731" height="1224" alt="image" src="https://github.com/user-attachments/assets/771c9078-8d74-4f23-bebb-d8f2eef99dd2" />
+
+
+<br>
 
 
 ### Canny Edge detector output
@@ -75,7 +87,12 @@ plt.title('Grayscale Image')
 plt.axis('off')
 ```
 
+<br>
 
+<img width="1662" height="1212" alt="image" src="https://github.com/user-attachments/assets/6e6272fe-2444-40bd-b6e6-dfb96bbf9ccb" />
+
+
+<br>
 
 ### Display the result of Hough transform
 ```
@@ -92,10 +109,11 @@ plt.axis('off')
 
 ```
 
+<br>
 
+<img width="1680" height="1212" alt="image" src="https://github.com/user-attachments/assets/44915c04-58f3-41b4-8c91-c3c6659d3fc9" />
 
-
-
+<br>
 
 ---
 
